@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# Life Restart
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<a href="https://discord.gg/U3qrf49NMQ"><img src="https://img.shields.io/discord/883382868427014255?color=%23FEE75C&label=Discord&logo=discord&logoColor=white&style=for-the-badge" /></a>
 
-## Available Scripts
+English | [简体中文](./README-zh_CN.md)
 
-In the project directory, you can run:
+## Introduction
 
-### `yarn start`
+- Game Life Restart
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Usage
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<details>
+<summary><strong>Web Version</strong></summary>
+<br />
 
-### `yarn test`
+1. Clone project code.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+git clone git@github.com:VickScarlet/lifeRestart.git my-project
+cd my-project
+```
 
-### `yarn build`
+2. Installation dependence.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+yarn install
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Or
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+npm install
+```
 
-### `yarn eject`
+3. Start local server.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```bash
+yarn dev
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Or
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```bash
+npm run dev
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+4. After the startup is complete, will automatically open a browser and visit [http://localhost:8081/view/index.html](http://localhost:8081/view/index.html).
+</details>
 
-## Learn More
+<details>
+<summary><strong>Command Line Version</strong></summary>
+<br />
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+node repl
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+</details>
 
-### Code Splitting
+## Other Version
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<details>
+<summary><strong>Versions</strong></summary>
+<br />
 
-### Analyzing the Bundle Size
+- Cocos Ver: [gameall3d/LifeRestart_Cocos](https://github.com/gameall3d/LifeRestart_Cocos)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+</details>
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+> More instructions at [documentation](https://liferestart.syaro.io/).
